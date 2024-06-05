@@ -1,0 +1,44 @@
+@import url("https://unpkg.com/nes.css/css/nes.css");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container__main {
+  margin: 0 auto;
+  width: 50%;
+  background-color: blueviolet;
+  text-align: center; 
+  margin-top: 10vh;
+  padding: 20px;
+}
+
+.container__titulo.h1 {
+  align-items: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container__add {
+  background-color: aqua;
+  width: 60%;
+  margin: 0 auto;
+}
+.container__add button.nes-btn.is-success {
+  width: 98%;
+  margin-top: 10px;
+}
+
+.line {
+  border: 1px solid #ededf2;
+  margin: 25px 0 0 0;
+  margin-bottom: 10px;
+}
+
+.container__tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
