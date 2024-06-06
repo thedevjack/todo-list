@@ -1,18 +1,21 @@
 @import url("https://unpkg.com/nes.css/css/nes.css");
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 
-* {
+body {
   margin: 0;
   padding: 0;
+  background-image: url(../assets/imagem.png);
 }
+
 
 .container__main {
   margin: 0 auto;
   width: 50%;
-  background-color: blueviolet;
-  text-align: center; 
+  background-color: #fff;
+  text-align: center;
   margin-top: 10vh;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .container__titulo.h1 {
@@ -22,8 +25,7 @@
 }
 
 .container__add {
-  background-color: aqua;
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
 }
 .container__add button.nes-btn.is-success {
@@ -36,9 +38,41 @@
   margin: 25px 0 0 0;
   margin-bottom: 10px;
 }
+.container__clean{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__clean span {
+  margin: 10px;
+}
+
+.container__clean button.nes-btn.is-warning{
+  width: 40%;
+  margin: 0 auto;
+}
 
 .container__tasks {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffffffa8;
+  padding: 5px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.btn__actions button.nes-btn.is-primary {
+  margin-right: 9px;
+}
+
+.container__task-card {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
